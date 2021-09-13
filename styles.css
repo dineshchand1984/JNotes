@@ -1,0 +1,62 @@
+body {
+  background-color: lightblue;
+  border: 2px solid;
+  padding: 10px;
+}
+
+input {
+  color: black; 
+  background-color: blue; 
+  font-style: italic;
+}
+
+div {
+   width: 100%;
+   border: 2px solid;
+   border-color: green;
+   margin-top: 2px;
+}
+
+table {
+	border-color: red;
+	border: 1px solid;
+	width: 100%;
+}
+
+th {
+	background-color: grey;
+	color: black;
+	border: 1px solid;
+}
+
+tr {
+	border: 1px solid black;
+	border-color: black;
+}
+
+td {
+	border: 1px solid black;
+}
+
+.taskid-header {
+	width: 5%;
+	text-align: center;
+}
+
+.taskdesc-header {
+	width: 95%;
+	text-align: right-side;
+}
+
+.taskid-row {
+	width: 100%;
+	text-align: center;
+}
+
+.taskdesc-row {
+	width: 100%;
+	text-align: left;
+	background-color: white; 
+}
+
+

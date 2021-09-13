@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title> Notes 1.0 </title>
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script language="javascript" type="text/javascript" src="js-functions.js">
+		</script>
+	</head>
+	<body>
+		<tr>
+			<b>My Notes - </b> 
+		</tr>
+		<br/>
+		
+		<div>
+			<table id ="taskstable">
+				<tr>
+					<th class="taskid-header"/>
+					<th class="taskdesc-header">Task Description</th>
+				</tr>
+			</table>
+		</div>
+		
+		<div>
+			<tr>
+				<input type = "button" onclick = "AddNotes()"    value = " Add " />
+				<input type = "button" onclick = "DeleteNotes()" value = " Remove " />
+				<input type = "button" onclick = "SaveNotes()"   value = " Save " />
+			</tr>
+		</div>
+	</body>
+</html>
