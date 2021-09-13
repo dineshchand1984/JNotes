@@ -28,6 +28,7 @@ function DeleteNotes(){
 
 function SaveNotes(){
 	console.log(" function - saveNotes() : start");
+
 	var taskstable    = document.getElementById("taskstable");
 	var numberOfNotes = taskstable.rows.length - 1;
 	console.log(" Number of notes : " + numberOfNotes);
